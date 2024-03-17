@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+}
+.header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.line{
+  width: 40px;
+  height: 28px;
+  border: 1.7px;
+  margin-left: 100px;
+  
+
+}
+.frameicon{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+}
+.search-bar{
+  margin-left: 250px;
+  height: 25px;
+  width: 300px;
+  border-style: solid;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+}
+.heart{
+  margin-left: 260px;
+}
+.shopping-cart,.user,.english{
+  margin-left: 20px;
+}
+.heart,.shopping-cart,.user,.english{
+  width: 30px;
+  height: 30px;
+}
